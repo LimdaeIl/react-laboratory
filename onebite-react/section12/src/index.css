@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NanumPenScript";
+  src: url("/NanumPenScript-Regular.ttf");
+}
+
+html, body {
+  margin: 0px;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+
+/* root 요소가 main 이에여 */
+/* vh: 뷰 포트 현재 화면 스크린 크기만큼 늘어나요*/
+/* box-shadow가 그림자 멋지게 만드는거*/
+#root {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px, 0px 29px 0px;
+}
+
+body * {
+  font-family: "NanumPenScript";
+}
