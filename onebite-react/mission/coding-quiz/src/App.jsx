@@ -16,7 +16,11 @@ const reducer = (state, action) => {
   }
 };
 
-
+/* 
+1. Context 객체 생성
+  - ContactStateContext : contacts State를 보관하고 공급함
+  - ContactDispatchContext : onCreateContact, onRemoveContact 등의 contacts State를 변경시키는 함수들을 보관하고 공급함
+*/
 export const ContactStateContext = createContext();
 export const ContactDispatchContext = createContext();
 
